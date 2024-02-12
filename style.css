@@ -111,7 +111,7 @@ ul li a:hover::after {
 	margin-left: -10px;
 	color: transparent;
 	-webkit-text-stroke: 1px white;
-	background-color: rgba(0, 0, 0, 0,438);
+	background-color: rgba(0, 0, 0, 0.438);
 	-webkit-background-clip: text;
 	background-clip: text;
 	background-position: 0 0;
@@ -376,9 +376,10 @@ body {
 	box-sizing: border-box;
   }
 
-  ,:before, *:after {
+  *:before, *:after {
 	box-sizing: inherit;
   }
+  
 
   .column {
 	float: right;
